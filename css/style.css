@@ -1,0 +1,869 @@
+
+/* font-family: 'Source Sans Pro', sans-serif;  */
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+/* header part start here  */
+
+header{
+
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   
+    color: #ffffff !important;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-light .navbar-nav .nav-link::before{
+
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .5s all ease-in-out;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before{
+
+    width: 45%;
+
+}
+.navbar-light .navbar-nav .nav-link::after{
+
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .5s all ease-in-out;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+
+    width: 45%;
+}
+.nav-item{
+
+    padding: 5px 10px;
+}
+
+.header-content h5{
+
+    color:  #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.header-content h1{
+
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+    margin-bottom: 20px;
+    
+
+
+}
+
+.header-content p {
+
+    color: #808081;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+    margin-bottom: 60px;
+
+}
+.hg{
+
+    height: 80vh;
+    position: relative;
+}
+
+.phone-part{
+
+    position: absolute;
+    bottom: -95px;
+    right: 0;
+    transform: translate(0);
+
+}
+
+.btn-download{
+
+    background-color: #008ed6;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    transition: .5s all ease-in-out;
+    padding: 10px 25px;
+    margin-right: 20px;
+
+
+
+}
+
+.btn-download:hover{
+
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #008ed6;
+}
+
+.btn-view{
+
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    transition: .5s all ease-in-out;
+    padding: 10px 25px;
+    
+
+}
+
+.btn-view:hover{
+
+    background-color: #008ed6;
+    color: #ffffff;
+
+}
+
+/* header part end here  */
+
+/* feature part start here  */
+
+.heading{
+
+    
+    position: relative;
+
+
+}
+
+.heading::before{
+
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 44%;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .7s all ease-in-out;
+    
+
+
+}
+
+.heading::after{
+
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    right: 44%;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .7s all ease-in-out;
+    
+
+
+}
+
+.features:hover .heading::before{
+
+    width: 30px;
+
+}
+
+.features:hover .heading::after{
+
+    width: 30px;
+    
+}
+.heading h5{
+
+    color:  #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    
+
+}
+
+.heading h1{
+
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+   
+
+
+}
+
+
+
+.feature{
+
+}
+
+.feature h3{
+
+    color: #808081;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+}
+
+.feature p{
+
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+
+}
+
+.icon{
+
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #008ed6;
+    font-size: 30px;
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+
+
+}
+
+.heading-one{
+
+    position: relative;
+
+}
+
+.heading-one::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .7s all ease-in-out;
+
+}
+
+.heading-one::after{
+    
+    content: '';
+    position: absolute;
+    right: 87%;
+    bottom: -25px;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .7s all ease-in-out;
+}
+
+.device:hover .heading-one::after{
+
+    width: 30px;
+
+}
+
+.device:hover .heading-one::before{
+
+    width: 30px;
+
+
+}
+
+.heading-one h5{
+
+    color:  #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.heading-one h1{
+
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+    margin-bottom: 25px;
+
+}
+
+.device p, .customize p{
+
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+    padding: 25px 0;
+}
+.device ul {
+
+    list-style: none;
+    margin: 0;
+
+}
+
+.device ul li{
+
+    margin: 7px 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+    text-align: left;
+
+
+}
+
+.device ul li i{
+
+    margin-right: 10px;
+    font-size: 18px;
+    color: #008ed6;
+
+
+}
+
+/* feature part end here  */
+
+/* customize part start here  */
+
+.customize{
+
+    background-color: #f2f2f2;
+}
+
+
+.customize:hover .heading-one::after{
+
+    width: 30px;
+
+}
+
+.customize:hover .heading-one::before{
+
+    width: 30px;
+
+
+}
+/* customize part end here  */
+
+/* testimonial part start here  */
+
+.testimonial{
+
+    background-image: url(../images/testimonial-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.testimonial h1{
+
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: initial;
+    margin-bottom: 10px;
+
+
+}
+
+.testimonial:hover .heading::before{
+
+    width: 30px;
+
+}
+
+.testimonial:hover .heading::after{
+
+    width: 30px;
+    
+}
+
+.testimonial h5{
+
+    color:  #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+}
+
+.testimonial p{
+
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 45px 0;
+}
+
+.client{
+
+    display: flex;
+    margin-bottom: 80px;
+
+
+}
+
+.des{
+
+    margin-left: 20px;
+    
+
+
+}
+
+.des h6{
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.des h5{
+
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+
+}
+
+/* testimonial part end here  */
+
+/* notofication part start here  */
+
+.notification{
+
+    background-color: #000000;
+
+
+}
+
+.notification h1{
+
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 200;
+    text-transform: initial;
+
+
+}
+
+.notification h1 span{
+
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: initial;
+
+
+}
+.btn-grp{
+
+    margin-right: 20px;
+
+
+}
+
+.btn-grp .btn-view{
+
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #444348;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    transition: .5s all ease-in-out;
+    padding: 10px 25px;
+    margin-right: 20px;
+}
+
+.btn-grp .btn-view:hover{
+
+    background-color: #444348;
+    color: #ffffff;
+}
+/* notification part end here  */
+
+
+/* pricing part start here  */
+
+.pricing{
+
+}
+
+.price{
+
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.price h4{
+
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif; 
+    text-transform: uppercase;
+    padding: 18px 0;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+    transition: .7s all ease-in-out;
+
+}
+
+.price_value h1{
+
+    color: #1a1a1a;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 0;
+    transition: .7s all ease-in-out;
+
+}
+
+.price_value h1 sup{
+
+    color: #1a1a1a;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif; 
+    transition: .7s all ease-in-out;
+    
+
+}
+
+.price h6{
+
+    color: #999999;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    transition: .7s all ease-in-out;
+    
+    
+    
+}
+
+.price p{
+
+    
+    color: #999999;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 0;
+    letter-spacing: 0.9px;
+    line-height: 1.9;
+    padding: 30px 20px;
+    
+
+}
+
+.price p span{
+
+    color: #008ed6;
+
+
+}
+.btn-order{
+
+    color: #008ed6;
+    border: 1px solid #e0e0e0;
+    padding: 8px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 30px;
+    transition: .7s all ease-in-out;
+
+}
+
+
+.price:hover .btn-order{
+
+    background-color: #008ed6;
+    color: #ffffff;
+}
+
+.price:hover h4{
+
+    color: #008ed6;
+}
+
+.price_value{
+
+
+    transition: .7s all ease-in-out;
+}
+
+.price:hover .price_value{
+
+    background-color: #008ed6;
+    color: #f2f2f2;
+}
+
+.price:hover .price_value h1{
+
+    color: #ffffff;
+}
+
+.price:hover .price_value h1 sup{
+
+    color: #ffffff;
+}
+
+.price:hover .price_value h6{
+
+    color: #ffffff;
+}
+
+
+.pricing:hover .heading::before{
+
+    width: 30px;
+
+}
+
+.pricing:hover .heading::after{
+
+    width: 30px;
+    
+}
+
+.contact{
+
+    background-color: #ededed;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.contact:hover .heading::before{
+
+    width: 30px;
+
+}
+
+.contact:hover .heading::after{
+
+    width: 30px;
+    
+}
+
+.contact-icon{
+    
+    color: #008ed6;
+    font-size: 30px;
+    padding: 30px 0;
+    
+
+}
+
+.contact p{
+
+    color: #999999;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 0;
+    
+    
+    
+    
+}
+
+
+.form-bg{
+
+    background-color: #15141a;
+    padding: 40px;
+
+
+}
+
+.btn-submit {
+
+    border: none;
+    background: transparent;
+    background-color: #008ed6;    
+    border: 1px solid #444348;  
+    border-radius: 5px;  
+    color: #fff;    
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    float: right;
+    padding: 10px 20px;
+    transition: .7s all ease-in-out;
+
+    
+    
+}
+
+.btn-submit:hover{
+
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #008ed6;
+}
+
+.form-control {
+    background-color: transparent;
+    color: #ededed;
+    border: none;
+    border: 1px solid #444348;
+    outline: none;
+}
+
+.form-group{
+
+    
+}
+
+.form-group textarea {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.abslt {
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+    transform: translate(-50%, -10%);
+    width: 100%;
+}
+footer{
+
+    background-color: #15141a;
+
+}
+
+.footer-icon{
+
+   margin-bottom: 30px;
+
+}
+
+.footer-icon ul{
+    
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-icon ul li{
+    
+    list-style: none;
+}
+
+
+.footer-icon ul li a{
+
+    color: #444348;
+    font-size: 20px;
+    transition: .7s all ease-in-out;  
+}
+
+.footer-icon ul li a:hover{
+
+    color: #008ed6;
+    
+}
+
+footer p{
+
+    color: #444348;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif; 
+    letter-spacing: .5px;
+}
+/* pricing part end here  */
